@@ -67,7 +67,7 @@ export default function ProgramCard({ program, onClick, index = 0 }) {
                     </div>
                     <div style={{
                         fontSize: "26px", fontWeight: "800",
-                        fontFamily: "Syne, sans-serif",
+                        fontFamily: "Playfair Display, serif",
                         color: color,
                         letterSpacing: "-0.02em",
                         lineHeight: 1,

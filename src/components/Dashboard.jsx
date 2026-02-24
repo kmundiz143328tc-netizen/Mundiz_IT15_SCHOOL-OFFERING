@@ -40,7 +40,7 @@ const StatCard = ({ label, value, icon, color, delay = 0, sub }) => (
                 <div style={{ fontSize: "12px", color: "var(--text2)", textTransform: "uppercase", letterSpacing: "0.1em", fontWeight: "600", marginBottom: "10px" }}>
                     {label}
                 </div>
-                <div style={{ fontSize: "42px", fontWeight: "800", fontFamily: "Syne, sans-serif", color: "var(--text)", lineHeight: 1 }}>
+                <div style={{ fontSize: "42px", fontWeight: "800", fontFamily: "Playfair Display, serif", color: "var(--text)", lineHeight: 1 }}>
                     {value}
                 </div>
                 {sub && <div style={{ fontSize: "12px", color: "var(--text2)", marginTop: "8px" }}>{sub}</div>}
@@ -118,7 +118,7 @@ export default function Dashboard() {
         <div>
             {/* Welcome */}
             <div style={{ marginBottom: "36px" }}>
-                <h2 style={{ fontSize: "28px", fontWeight: "800", color: "var(--text)", marginBottom: "6px" }}>
+                <h2 style={{ fontSize: "50px", fontWeight: "800", color: "var(--text)", marginBottom: "6px" }}>
                     Welcome back 👋
                 </h2>
                 <p style={{ color: "var(--text2)", fontSize: "15px" }}>

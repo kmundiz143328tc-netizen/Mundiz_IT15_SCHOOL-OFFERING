@@ -30,7 +30,7 @@ export default function SubjectList() {
         <div>
             {/* Header */}
             <div style={{ marginBottom: "32px" }}>
-                <h2 style={{ fontSize: "40px", fontWeight: "800", color: "var(--text)", marginBottom: "6px" }}>
+                <h2 style={{ fontSize: "50px", fontWeight: "800", color: "var(--text)", marginBottom: "6px" }}>
                     Subject Offerings
                 </h2>
                 <p style={{ color: "var(--text2)", fontSize: "15px" }}>

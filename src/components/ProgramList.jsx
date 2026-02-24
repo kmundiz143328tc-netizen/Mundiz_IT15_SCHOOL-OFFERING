@@ -26,7 +26,7 @@ export default function ProgramList() {
         <div>
             {/* Header */}
             <div style={{ marginBottom: "32px" }}>
-                <h2 style={{ fontSize: "28px", fontWeight: "800", color: "var(--text)", marginBottom: "6px" }}>
+                <h2 style={{ fontSize: "50px", fontWeight: "800", color: "var(--text)", marginBottom: "6px" }}>
                     Program Offerings
                 </h2>
                 <p style={{ color: "var(--text2)", fontSize: "15px" }}>

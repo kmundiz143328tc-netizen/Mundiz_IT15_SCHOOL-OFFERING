@@ -56,8 +56,8 @@ export default function SubjectCard({ subject, onClick, index = 0 }) {
             {/* Header */}
             <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-start", marginBottom: "12px" }}>
                 <div style={{
-                    fontSize: "18px", fontWeight: "800",
-                    fontFamily: "Syne, sans-serif",
+                    fontSize: "25px", fontWeight: "800",
+                    fontFamily: "Playfair Display, serif",
                     color: color, letterSpacing: "-0.01em",
                 }}>
                     {subject.code}
